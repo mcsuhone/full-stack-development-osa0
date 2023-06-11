@@ -1,4 +1,4 @@
-:::mermaid
+```mermaid
 sequenceDiagram
     participant browser
     participant server
@@ -34,4 +34,4 @@ sequenceDiagram
 
     server-->>browser: Created note in JSON format
     deactivate server
-:::
+```
